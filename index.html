@@ -7,6 +7,9 @@
     <title>Velaris Brewing Co.</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chicle&family=Pacifico&family=Paytone+One&family=Ranchers&family=Sigmar+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,19 +18,19 @@
             <div class="navbar-container">
                 <header class="navbar">
                     <div class="logo-name-container left">
-                        <a href=""><i class="fa fa-beer" alt="Beer Mug Logo" aria-hidden="true"></i>
+                        <a class="icon" href=""><i class="fa fa-beer" alt="Beer Mug Logo" aria-hidden="true"></i>
                         Velaris Brewing Co.
                         </a>
                     </div>
                     <ul class="nav-links">
-                        <li><a href="">Beer</a></li>
-                        <li><a href="">Merch</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Visit</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a class="icon" href="">Beer</a></li>
+                        <li><a class="icon" href="">Merch</a></li>
+                        <li><a class="icon" href="">About</a></li>
+                        <li><a class="icon" href="">Visit</a></li>
+                        <li><a class="icon" href="">Contact</a></li>
                     </ul>
                     <div class="shopping-cart-container right">
-                        <a href=""><i class="fa fa-shopping-cart logo-cart" alt="Shopping Cart Logo" aria-hidden="true"></i>
+                        <a href="" class="icon"><i class="fa fa-shopping-cart logo-cart" alt="Shopping Cart Logo" aria-hidden="true"></i>
                         </a>
                     </div>
                 </header>
@@ -38,14 +41,100 @@
             </div>
         </div>
         
-        <div class="content-container">
-            <div>Who we are</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores neque dolores officiis natus ullam dolorem. Tempora praesentium voluptatibus consequuntur eligendi esse expedita harum ratione, delectus porro dicta reiciendis eveniet reprehenderit?</div>
+        <div class="content-container flex test">
+
+            <div class="introduction-container flex test">
+                <p class="title test">Who are we?</p>
+                <p class="introduction-paragraph text-description test">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Maxime ab laudantium, magnam est aut architecto odio adipisci aliquam accusantium vel sapiente
+                     provident facere. Debitis, aperiam consequatur nisi facere dolor quaerat. Lorem ipsum dolor sit 
+                     amet consectetur adipisicing elit. Beatae vel non voluptatem. Totam, distinctio corrupti quod 
+                     sunt facere impedit, dicta voluptates neque asperiores ullam praesentium temporibus hic fuga, 
+                     quas alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, praesentium, obcaecati
+                      ex at eius est commodi maxime repudiandae sequi voluptate consequuntur reiciendis doloremque nam. 
+                      Rerum aut dolore tempore aperiam obcaecati?
+                </p>
+                <p class="secondary-title">Enjoy!</p>
+            </div>
+
+            <p class="title test">Bestsellers</p>
+
+            <div class="bestsellers-container flex test">
+                
+                <div>
+                    <img src="./images/beer-bottle-xl.jpg" alt="Beer for sale">
+                    <p class="secondary-title">beer one title</p>
+                    <p class="text-description">little summary lalalalala</p>
+                </div>
+                <div>
+                    <img src="./images/beer-bottle-xl.jpg" alt="Beer for Sale">
+                    <p class="secondary-title">beer two title</p>
+                    <p class="text-description">little summary lala</p>
+                </div>
+                <div>
+                    <img src="./images/beer-bottle-xl.jpg" alt="Beer for Sale">
+                    <p class="secondary-title">beer three title</p>
+                    <p class="text-description">beer summary lalala</p>
+                </div>
+                 
+            </div>
+
         </div>
 
+        <div class="hours-map-container flex test">
 
-        <footer>This is the footer.</footer>
+            <div class="hours-container flex test">
+                <p class="title test">Hours</p>
+                <p class="hours hours-day test">Monday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Tuesday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Wednesday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Thursday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Friday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Saturday: 12:00 PM - 9:00 PM</p>
+                <p class="hours hours-day test">Sunday: 12:00 PM - 9:00 PM</p>
+            </div>
+
+            <div class="map-container flex test">
+                <p class="map title test">Address</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12997.306741046814!2d-80.92971582888887!3d35.471460212488154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856af4426f0983d%3A0x6fdf2616d7a4604c!2sJetton%20Park!5e0!3m2!1sen!2sus!4v1704726707689!5m2!1sen!2sus" width="444" height="333" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        <footer class="footer-container flex test">
+
+            <div class="contactus-container test">
+                <p class="footer-text test">(111) 000-1212</p>
+                <p class="footer-text test">info@velarisbrewing.com</p>
+                <p class="footer-text test">lets be friends.</p>
+                <div class="social-media-links flex test">
+                    <div class="icon facebook test">
+                        <a href=""><img src="./images/icons8-facebook-48.png" alt="Facebook Link"></a>
+                    </div>
+                    <div class="icon twitter test">
+                        <a href=""><img src="./images/icons8-twitter-48.png" alt="Twitter Link"></a>
+                    </div>
+                    <div class="icon instagram test">
+                        <a href=""><img src="./images/icons8-instagram-48.png" alt="Instagram Link"></a>
+                    </div>
+                    <div class="icon youtube test">
+                        <a href=""><img src="./images/icons8-youtube-48.png" alt="Youtube Link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="links-container flex test">
+                <a class="footer-text icon" href="">About</a>
+                <a class="footer-text icon" href="">Events</a>
+                <a class="footer-text icon" href="">Newsletter</a>
+                <a class="footer-text icon" href="">Careers</a>
+                <a class="footer-text icon" href="">Ingredient List</a>
+            </div>
+
+        </footer>
 
     </div> 
+    <p class="copyright-info test">© 2024 Design by Binx</p>
 </body>
 </html>
